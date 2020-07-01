@@ -12,5 +12,12 @@ int main(){
 	
 	cout<<"You have "<<numbers<<" manuals available."<<endl;
 	
+	for(int i = 1; i<numbers;i++)
+	{
+		cout<<i<<",";
+	}
+	
+	cout<<numbers<<endl;
+	
 	return 0;
 	}
